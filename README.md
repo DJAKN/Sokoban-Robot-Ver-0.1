@@ -12,7 +12,7 @@ The robot platform we use is a four-wheel drive robot car with a series of senso
 
 ### Code framework
 
-We use RobotSDK as the development framework. RobotSDK is a robotics framework developed by students from Beihang University and Peking University for robotics development and application. To test this framework, you need to first install RobotSDK on your Linux OS. Please refer to README.md in `/Robot`.
+We use RobotSDK as the development framework. RobotSDK is a robotics framework developed by students from Beihang University and Peking University for robotics development and application. To test this framework, you need to first install RobotSDK on your Linux OS. Please refer to ```README.md``` in `/Robot`.
 
 Previous work has provided interfaces to the sensors. We use them directly in the control module. This module is located in `/Robot/Processor/Action/ProcessorMulti/Edit`. Besides, we also use APIs from OpenCV to support the object identification function.
 
